@@ -64,7 +64,9 @@ function App() {
         </Group>
 
         <div style={{ marginTop: "40px", paddingInline:"20px" }}>
+          <div style = {{overflowY:"scroll", maxHeight: "calc(60vh - 150px)" , borderRadius: "8px" , padding:"10px"}}>
           <AgricultureTable />
+          </div>  
           <AverageChart colorScheme={isDark ? "dark" : "light"} />
         </div>
       </div>
